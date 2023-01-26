@@ -147,6 +147,7 @@ nav {
 .home {
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .home-text {
@@ -250,7 +251,10 @@ nav {
 
 
 @media screen and (max-width: 1024px) {
-    .slider .slide img {}
+    .home {
+        margin-bottom: 30px;
+    }
+    
 }
 
 /* TEXTO FULL WIDTH */
