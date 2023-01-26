@@ -250,7 +250,7 @@ nav {
 
 
 
-.box-text h1 {
+.box-text p {
     position: relative;
     font-size: 4.6vw;
     justify-content: center;
@@ -270,7 +270,6 @@ nav {
 }
 
 
-
 .left .content h1 {
     font-size: 1.5em;
     position: relative;
@@ -284,6 +283,11 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 7vw;
+    font-weight: 500;
+}
+
+.right {
+    width: 50vw;
 }
 
 .right img {
@@ -295,6 +299,10 @@ nav {
 @media screen and (max-width: 1024px) {
     .row {
         grid-template-columns: 1fr;
+    }
+
+    .right {
+        width: 100%;
     }
 }
 
@@ -314,17 +322,17 @@ nav {
 }
 
 .right-content {
-    width: 100%;
+    width: 50vw;
     height: 100%;
     background-color: var(--thrid-color)
 }
 
 .text-content {
-    margin: 100px;
+    padding: 100px;
 }
 
 .tweets {
-    width: 400px;
+    width: auto;
     height: 500px;
     justify-content: space-around;
     overflow: hidden;
@@ -384,6 +392,9 @@ nav {
 
     .tweets {
         width: auto;
+    }
+    .right-content {
+        width: 100%;
     }
 
 }
